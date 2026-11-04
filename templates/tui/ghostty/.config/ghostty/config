@@ -1,6 +1,6 @@
-# Ghostty – frameshell (colors: themes/frameshell, written by facet theme)
+# Ghostty – the tui style (colors: themes/tui), written by facet theme from this template
 
-theme = frameshell
+theme = tui
 
 font-family = JetBrains Mono
 font-size = 12
