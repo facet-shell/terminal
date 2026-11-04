@@ -28,3 +28,9 @@ shell-integration = fish
 # Ghostty puts fullscreen on ctrl+enter; that key belongs to the programs inside
 # (Claude Code sends with it). Fullscreen stays on Super+Ctrl+F from Hyprland.
 keybind = ctrl+enter=unbind
+
+# Ctrl+Alt+Q/E type @ and € (frame/shell.lua hands Ghostty the keys as they are): a
+# synthetic AltGr arrived with Ctrl and Alt still held, which a terminal reads as a control
+# sequence and typed nothing
+keybind = ctrl+alt+q=text:@
+keybind = ctrl+alt+e=text:€
