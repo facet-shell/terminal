@@ -1,4 +1,4 @@
-# frameshell – fish setup and Starship prompt; the colors are in facet-colors.fish (the active style's)
+# facet – fish setup and Starship prompt; the colors are in facet-colors.fish (the active style's)
 # Lives in conf.d so CachyOS's own config.fish stays untouched.
 
 # The frame command lives in ~/.local/bin (no-op when it is already in PATH)
